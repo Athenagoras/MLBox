@@ -7,7 +7,7 @@ from copy import copy
 
 import numpy as np
 import pandas as pd
-from sklearn.ensemble import *
+from sklearn.ensemble import ExtraTreesRegressor, RandomForestRegressor, AdaBoostRegressor, BaggingRegressor
 from xgboost import XGBRegressor
 from sklearn.linear_model import Ridge
 from sklearn.tree import DecisionTreeRegressor
