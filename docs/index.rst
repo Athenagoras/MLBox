@@ -20,7 +20,6 @@ Contents:
    :maxdepth: 2
 
    readme
-   Getting started: 30 seconds to MLBox 
    contributing
    authors
    history
