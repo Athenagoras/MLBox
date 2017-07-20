@@ -7,7 +7,7 @@
 * Fast reading and distributed data preprocessing/cleaning/formatting
 * Highly robust feature selection and leak detection
 * Accurate hyper-parameter optimization in high-dimensional space
-* State-of-the art predictive models for classification and regression (Deep Learning, Stacking, LightGBM,...)
+* State-of-the art predictive models for classification and regression (Deep Learning, Stacking, LightGBM, ...)
 * Prediction with models interpretation 
 
 
