@@ -19,9 +19,7 @@ __MLBox is a powerful Automated Machine Learning python library.__ It provides t
 - Prediction with models interpretation 
 
 
-__To get it installed__, please refer to [README](https://github.com/AxeldeRomblay/MLBox/blob/master/python-package/README.rst)
-
-__For more details__, please refer to [docs](https://github.com/AxeldeRomblay/MLBox/tree/master/docs/documentation.md)
+__For more details__, please read the **[docs]**(http://mlbox.readthedocs.io/en/docs/)
 
 __Experiments__ : https://www.kaggle.com/c/two-sigma-connect-rental-listing-inquiries/leaderboard | **Rank : 85/2488**
 
