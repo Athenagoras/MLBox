@@ -27,34 +27,35 @@ MLBox main package contains 3 sub-packages : **preprocessing**, **optimisation**
 
 **Here are a few lines to import the MLBox:**
 
-```python
-from mlbox.preprocessing import *
-from mlbox.optimisation import *
-from mlbox.prediction import *
-```
+.. code-block:: python 
+   from mlbox.preprocessing import *
+   from mlbox.optimisation import *
+   from mlbox.prediction import *
+
 
 **Then, all you need to give is :** 
 
 * the list of paths to your train datasets and test datasets
 * the name of the target you try to predict (classification or regression)
 
-```python
-paths = ["<file_1>.csv", "<file_2>.csv", ..., "<file_n>.csv"] #to modify
-target_name = "<my_target>" #to modify
-```
+.. code-block:: python 
+   paths = ["<file_1>.csv", "<file_2>.csv", ..., "<file_n>.csv"] #to modify
+   target_name = "<my_target>" #to modify
+
+
 **Now, let the MLBox do the job !**
 
 ... to read and preprocess your files : 
 
-```python
-data = Reader(sep=",").train_test_split(paths, target_name)  #reading
-data = Drift_thresholder().fit_transform(data)  #deleting non-stable variables
-```
+.. code-block:: python 
+   data = Reader(sep=",").train_test_split(paths, target_name)  #reading
+   data = Drift_thresholder().fit_transform(data)  #deleting non-stable variables
+
 ... to evaluate models (here default configuration):
 
-```python
-Optimiser().evaluate(None, data)
-```
+.. code-block:: python 
+   Optimiser().evaluate(None, data)
+
 
 ... or to test and optimize the whole Pipeline [**OPTIONAL**]:
 * missing data encoder, aka 'ne'
@@ -65,28 +66,27 @@ Optimiser().evaluate(None, data)
 
 **NB** : please have a look at all the possibilities you have to configure the Pipeline (steps, parameters and values...) 
 
-```python
-space = {
-        'ne__numerical_strategy' : {"search":"choice", "space":[0, 'mean']},
-                              
-        'ce__strategy' : {"search":"choice", "space":["label_encoding", "random_projection"]},
-                          
-        'fs__strategy' : {"search":"choice", "space":["variance", "l1"]},
-        'fs__threshold': {"search":"choice", "space":[0.1,0.2,0.3]},             
-        
-        'est__strategy' : {"search":"choice", "space":["XGBoost"]},
-        'est__max_depth' : {"search":"choice", "space":[5,6]},
-        'est__subsample' : {"search":"uniform", space":[0.6,0.9]}
-        }
-        
-best = opt.optimise(space, data, max_evals = 5)
-```
+.. code-block:: python 
+   space = {
+           'ne__numerical_strategy' : {"search":"choice", "space":[0, 'mean']},
+
+           'ce__strategy' : {"search":"choice", "space":["label_encoding", "random_projection"]},
+
+           'fs__strategy' : {"search":"choice", "space":["variance", "l1"]},
+           'fs__threshold': {"search":"choice", "space":[0.1,0.2,0.3]},             
+
+           'est__strategy' : {"search":"choice", "space":["XGBoost"]},
+           'est__max_depth' : {"search":"choice", "space":[5,6]},
+           'est__subsample' : {"search":"uniform", space":[0.6,0.9]}
+           }
+
+   best = opt.optimise(space, data, max_evals = 5)
+
 ... finally to predict on the test set with the best parameters (or None for default configuration):
 
-```python
-Predictor().fit_predict(best, data)
+.. code-block:: python 
+   Predictor().fit_predict(best, data)
 
-```
 
 **That's all !** You can have a look at the folder "save" where you can find :
 
