@@ -1,6 +1,6 @@
 .. image:: ../logo.png
 
-|Documentation Status| |PyPI version| |Build Status| |Windows Build Status| |GitHub Issues| |codecov| |License|
+|PyPI version| |Build Status| |Windows Build Status| |GitHub Issues| |codecov| |License|
 
 -----------------------
 
@@ -34,8 +34,6 @@ Indices and tables
 * :ref:`search`
 
 
-.. |Documentation Status| image:: https://readthedocs.org/projects/mlbox/badge/?version=latest
-   :target: http://mlbox.readthedocs.io/en/latest/?badge=latest
 .. |PyPI version| image:: https://badge.fury.io/py/mlbox.svg
    :target: https://pypi.org/project/mlbox/
 .. |Build Status| image:: https://travis-ci.org/AxeldeRomblay/MLBox.svg?branch=master
