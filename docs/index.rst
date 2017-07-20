@@ -1,4 +1,4 @@
-<img src=https://github.com/AxeldeRomblay/MLBox/blob/master/logo.png width=750/> 
+.. image:: ../logo.png
 
 |Documentation Status| |PyPI version| |Build Status| |Windows Build Status| |GitHub Issues| |codecov| |License|
 
