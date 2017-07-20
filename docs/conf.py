@@ -23,14 +23,17 @@ class Mock(MagicMock):
             return MagicMock()
 
 MOCK_MODULES = ['numpy',
+                'matplotlib',
                 'matplotlib.pyplot', 
                 'hyperopt',
                 'ipyparallel',
+                'keras',
                 'keras.layers.core',
                 'keras.layers.embeddings',
                 'keras.layers',
                 'keras.models',
                 'pandas',
+                'sklearn',
                 'sklearn.ensemble',
                 'sklearn.metrics',
                 'sklearn.linear_model',
