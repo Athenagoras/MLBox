@@ -23,24 +23,26 @@ class Mock(MagicMock):
             return MagicMock()
 
 MOCK_MODULES = ['numpy',
-                'pandas',
-                'sklearn',
-                'keras',
-                'lightgbm',
-                'theano',
-                'xgboost',
+                'matplotlib.pyplot', 
+                'hyperopt',
                 'ipyparallel',
                 'keras.layers.core',
                 'keras.layers.embeddings',
                 'keras.layers',
                 'keras.models',
+                'pandas',
                 'sklearn.ensemble',
                 'sklearn.metrics',
                 'sklearn.linear_model',
                 'sklearn.model_selection',
                 'sklearn.tree',
                 'sklearn.pipeline',
-                'sklearn.preprocessing']
+                'sklearn.preprocessing',
+                'scipy',
+                'theano',
+                'lightgbm',
+                'xgboost'
+                ]
 
 sys.modules.update((mod_name, Mock()) for mod_name in MOCK_MODULES)
 
