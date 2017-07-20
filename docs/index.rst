@@ -20,7 +20,7 @@ Contents:
    :maxdepth: 2
 
    readme
-   ../python-package/README
+   installation
    contributing
    authors
    history
