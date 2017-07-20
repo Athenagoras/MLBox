@@ -18,16 +18,21 @@
 
 --------------------------
 
-Contents:
----------
+Home
+----
 
 .. toctree::
    :maxdepth: 1
-   :caption: Home
+   :caption: Tutorials
 
    introduction
    installation
-   
+ 
+.. toctree::
+   :maxdepth: 2
+   :caption: Features
+      
+ 
 .. toctree::
    :maxdepth: 1
    :caption: Contribution
