@@ -1,4 +1,4 @@
-.. image:: logo.jpg
+.. image:: logo.png
 
 |Documentation Status| |PyPI version| |Build Status| |Windows Build Status| |GitHub Issues| |codecov| |License|
 
