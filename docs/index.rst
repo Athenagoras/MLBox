@@ -16,9 +16,6 @@
 **Experiments on Kaggle** : `Two Sigma Connect: Rental Listing Inquiries <https://www.kaggle.com/c/two-sigma-connect-rental-listing-inquiries/leaderboard>`__ | **Rank : 85/2488**
 
 
-Contents:
----------
-
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
