@@ -1,16 +1,10 @@
 <img src=https://github.com/AxeldeRomblay/MLBox/blob/master/logo.png width=750/> 
 
-[![Documentation Status](https://readthedocs.org/projects/mlbox/badge/?version=latest)](http://mlbox.readthedocs.io/en/latest/?badge=latest)
-[![PyPI version](https://badge.fury.io/py/mlbox.svg)](https://pypi.org/project/mlbox/)
-[![Build Status](https://travis-ci.org/AxeldeRomblay/MLBox.svg?branch=master)](https://travis-ci.org/AxeldeRomblay/MLBox)
-[![Windows Build status](https://ci.appveyor.com/api/projects/status/1ys5ot401m0fep6l/branch/master?svg=true)](https://ci.appveyor.com/project/AxeldeRomblay/mlbox)
-[![GitHub Issues](https://img.shields.io/github/issues/AxeldeRomblay/MLBox.svg)](https://github.com/AxeldeRomblay/MLBox/issues)
-[![codecov](https://codecov.io/gh/AxeldeRomblay/MLBox/branch/master/graph/badge.svg)](https://codecov.io/gh/AxeldeRomblay/MLBox)
-[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://github.com/AxeldeRomblay/MLBox/blob/master/LICENSE)
+|Documentation Status| |PyPI version| |Build Status| |Windows Build Status| |GitHub Issues| |codecov| |License|
 
 -----------------------
 
-__MLBox is a powerful Automated Machine Learning python library.__ It provides the following features:
+**MLBox is a powerful Automated Machine Learning python library.** It provides the following features:
 
 - Fast reading and distributed data preprocessing/cleaning/formatting
 - Highly robust feature selection and leak detection
@@ -40,6 +34,20 @@ Indices and tables
 * :ref:`search`
 
 
+.. |Documentation Status| image:: https://readthedocs.org/projects/mlbox/badge/?version=latest
+   :target: http://mlbox.readthedocs.io/en/latest/?badge=latest
+.. |PyPI version| image:: https://badge.fury.io/py/mlbox.svg
+   :target: https://pypi.org/project/mlbox/
+.. |Build Status| image:: https://travis-ci.org/AxeldeRomblay/MLBox.svg?branch=master
+   :target: https://travis-ci.org/AxeldeRomblay/MLBox
+.. |Windows Build Status| image:: https://ci.appveyor.com/api/projects/status/5ypa8vaed6kpmli8?svg=true
+   :target: https://ci.appveyor.com/project/AxeldeRomblay/mlbox
+.. |GitHub Issues| image:: https://img.shields.io/github/issues/AxeldeRomblay/MLBox.svg
+   :target: https://github.com/AxeldeRomblay/MLBox/issues
+.. |codecov| image:: https://codecov.io/gh/AxeldeRomblay/MLBox/branch/master/graph/badge.svg
+   :target: https://codecov.io/gh/AxeldeRomblay/MLBox
+.. |License| image:: https://img.shields.io/badge/License-BSD%203--Clause-blue.svg
+   :target: https://github.com/AxeldeRomblay/MLBox/blob/master/LICENSE
 
 
 
