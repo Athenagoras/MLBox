@@ -3,7 +3,4 @@
    :caption: Contents:
 
    readme
-   installation
-   contributing
-   authors
-   history
+
