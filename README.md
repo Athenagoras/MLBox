@@ -1,6 +1,6 @@
 <img src=https://github.com/AxeldeRomblay/MLBox/blob/master/logo.png width=750/> 
 
-[![Documentation Status](https://readthedocs.org/projects/mlbox/badge/?version=latest)](http://mlbox.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/mlbox/badge/?version=docs)](http://mlbox.readthedocs.io/en/docs/?badge=docs)
 [![PyPI version](https://badge.fury.io/py/mlbox.svg)](https://pypi.org/project/mlbox/)
 [![Build Status](https://travis-ci.org/AxeldeRomblay/MLBox.svg?branch=master)](https://travis-ci.org/AxeldeRomblay/MLBox)
 [![Windows Build status](https://ci.appveyor.com/api/projects/status/1ys5ot401m0fep6l/branch/master?svg=true)](https://ci.appveyor.com/project/AxeldeRomblay/mlbox)
