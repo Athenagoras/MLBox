@@ -28,6 +28,7 @@ MLBox main package contains 3 sub-packages : **preprocessing**, **optimisation**
 **Here are a few lines to import the MLBox:**
 
 .. code-block:: python 
+
    from mlbox.preprocessing import *
    from mlbox.optimisation import *
    from mlbox.prediction import *
@@ -39,6 +40,7 @@ MLBox main package contains 3 sub-packages : **preprocessing**, **optimisation**
 * the name of the target you try to predict (classification or regression)
 
 .. code-block:: python 
+
    paths = ["<file_1>.csv", "<file_2>.csv", ..., "<file_n>.csv"] #to modify
    target_name = "<my_target>" #to modify
 
@@ -48,16 +50,19 @@ MLBox main package contains 3 sub-packages : **preprocessing**, **optimisation**
 ... to read and preprocess your files : 
 
 .. code-block:: python 
+
    data = Reader(sep=",").train_test_split(paths, target_name)  #reading
    data = Drift_thresholder().fit_transform(data)  #deleting non-stable variables
 
 ... to evaluate models (here default configuration):
 
 .. code-block:: python 
+
    Optimiser().evaluate(None, data)
 
 
 ... or to test and optimize the whole Pipeline [**OPTIONAL**]:
+
 * missing data encoder, aka 'ne'
 * categorical variables encoder, aka 'ce'
 * feature selector, aka 'fs'
@@ -67,6 +72,7 @@ MLBox main package contains 3 sub-packages : **preprocessing**, **optimisation**
 **NB** : please have a look at all the possibilities you have to configure the Pipeline (steps, parameters and values...) 
 
 .. code-block:: python 
+
    space = {
            'ne__numerical_strategy' : {"search":"choice", "space":[0, 'mean']},
 
@@ -85,6 +91,7 @@ MLBox main package contains 3 sub-packages : **preprocessing**, **optimisation**
 ... finally to predict on the test set with the best parameters (or None for default configuration):
 
 .. code-block:: python 
+
    Predictor().fit_predict(best, data)
 
 
