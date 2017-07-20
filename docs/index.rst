@@ -19,7 +19,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   ../README
+   readme
    ../python-package/README
    contributing
    authors
