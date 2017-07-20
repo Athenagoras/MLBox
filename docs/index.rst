@@ -27,10 +27,7 @@ Contents:
 
    introduction
    installation
-
-   :caption: DOCUMENTATION:
    
-   preprocessing
 
    :caption: CONTRIBUTION:
    
