@@ -10,7 +10,7 @@
 * State-of-the art predictive models for classification and regression (Deep Learning, Stacking, LightGBM,...)
 * Prediction with models interpretation 
 
-**For more details**, please read the `docs <http://mlbox.readthedocs.io/en/docs/>`__
+**For more details**, please read the **`docs <http://mlbox.readthedocs.io/en/docs/>`__**
 
 **Experiments on Kaggle** : `Two Sigma Connect: Rental Listing Inquiries <https://www.kaggle.com/c/two-sigma-connect-rental-listing-inquiries/leaderboard>`__ | **Rank : 85/2488**
 
