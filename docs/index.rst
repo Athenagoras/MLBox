@@ -29,6 +29,7 @@ Contents:
    installation
    authors
    history
+   contributing
 
    :caption: Documentation:
    
