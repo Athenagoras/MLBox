@@ -1,0 +1,2 @@
+.. autoclass:: mlbox.preprocessing
+   :members:
