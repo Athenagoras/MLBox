@@ -18,10 +18,16 @@
 
 --------------------------
 
+Contents:
+---------
+
 .. toctree::
    :maxdepth: 1
+   :caption: Home:
 
    introduction
    installation
    authors
    history
+
+   :caption: optimisation:
