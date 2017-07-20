@@ -23,13 +23,14 @@ Contents:
 
 .. toctree::
    :maxdepth: 1
-   :caption: HOME
+   :caption: Home
 
    introduction
    installation
    
-
-   :caption: CONTRIBUTION:
+.. toctree::
+   :maxdepth: 1
+   :caption: Contribution
    
    authors
    history
