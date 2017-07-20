@@ -6,19 +6,18 @@
 
 **MLBox is a powerful Automated Machine Learning python library.** It provides the following features:
 
-- Fast reading and distributed data preprocessing/cleaning/formatting
-- Highly robust feature selection and leak detection
-- Accurate hyper-parameter optimization in high-dimensional space
-- State-of-the art predictive models for classification and regression (Deep Learning, Stacking, LightGBM,...)
-- Prediction with models interpretation 
+* Fast reading and distributed data preprocessing/cleaning/formatting
+* Highly robust feature selection and leak detection
+* Accurate hyper-parameter optimization in high-dimensional space
+* State-of-the art predictive models for classification and regression (Deep Learning, Stacking, LightGBM,...)
+* Prediction with models interpretation 
 
 Contents:
 
 .. toctree::
    :maxdepth: 2
 
-   readme
-   installation
+   Installation Guide <https://github.com/AxeldeRomblay/MLBox/blob/master/python-package/README.rst>
    contributing
    authors
    history
