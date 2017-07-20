@@ -1,48 +1,44 @@
 Welcome to MLBox's documentation!
-======================================
+==================================
 
 This page is the official documentation for MLBox package. You will learn how to use all the features provided by this tool. [**Here**](https://github.com/AxeldeRomblay/MLBox/blob/master/docs/MLBox.pdf) is an extra-explanation of the different subpackages. 
 
 
 ### Table of Contents
 
-* **[encoding](#encoding)**<br>
+* **[encoding](#encoding)**
 
-* **[model](#model)**<br>
-  * [classification](#classification) <br>
-  * [regression](#regression) <br>
+* **[model](#model)**
 
-* **[optimisation](#optimisation)**<br>
+  * [classification](#classification)
+  * [regression](#regression) 
 
-* **[prediction](#prediction)**<br>
+* **[optimisation](#optimisation)**
 
-* **[preprocessing](#preprocessing)**<br>
+* **[prediction](#prediction)**
 
-<br/>
+* **[preprocessing](#preprocessing)**
+
 
 # MLBox's documentation 
 
-<br/>
 
 ## encoding
 
-<br/>
 
 ####  class Categorical_encoder  ####
 *Encodes categorical features. Several strategies are possible (supervised or not). Works for both classification and regression tasks.*
 
-<br/>
 
 > **Parameters**
 > ___
 >  
-> ***strategy*** : **str**, defaut = `"label_encoding"` <br/>
+> ***strategy*** : **str**, defaut = `"label_encoding"` 
 > *The strategy to encode categorical features. Available strategies = `"label_encoding"`, `"dummification"`, `"random_projection"`, `"entity_embedding"`*
 >
-> ***verbose*** : **bool**, defaut = `False` <br/>
+> ***verbose*** : **bool**, defaut = `False` 
 > *Verbose mode. Useful for entity embedding strategy.*
 
-<br/>
 
 > **Methods defined here:**
 > ___
