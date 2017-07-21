@@ -29,19 +29,19 @@ Home
  
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Preprocessing
    
    preprocessing
    
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Encoding
    
    encoding
    
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Model
    
    classification
@@ -54,7 +54,7 @@ Home
    optimisation
    
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Prediction
    
    prediction
