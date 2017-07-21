@@ -1,4 +1,4 @@
 Optimisation
 ------------
 
-.. autoclass:: mlbox.optimisation.optimiser
+.. autoclass:: mlbox.optimisation.Optimiser
