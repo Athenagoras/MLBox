@@ -44,8 +44,7 @@ Home
    :maxdepth: 3
    :caption: Model
    
-   classification
-   regression
+   model
    
 .. toctree::
    :maxdepth: 2
