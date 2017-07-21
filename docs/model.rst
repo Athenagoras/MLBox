@@ -16,7 +16,7 @@ Stacking
 ---------
 
 .. autoclass:: mlbox.model.supervised.StackingClassifier
-  .. autoattribute::fit
+  :members:
 
 
 Regression
