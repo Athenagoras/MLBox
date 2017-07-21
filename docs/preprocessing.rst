@@ -1,9 +1,9 @@
-Reader
-======
+Reading
+-------
 
 .. autoclass:: mlbox.preprocessing.Reader
 
-Drift_thresholder
-================
+Drift thresholding
+------------------
 
 .. autoclass:: mlbox.preprocessing.Drift_thresholder
