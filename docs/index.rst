@@ -27,8 +27,38 @@ Home
    introduction
    installation
  
-.. autoclass:: mlbox.preprocessing.Drift_thresholder
- 
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Preprocessing
+   
+   preprocessing
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Encoding
+   
+   encoding
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Model
+   
+   classification
+   regression
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Optimisation   
+   
+   optimisation
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Prediction
+   
+   prediction
+   
 .. toctree::
    :maxdepth: 1
    :caption: Contribution
