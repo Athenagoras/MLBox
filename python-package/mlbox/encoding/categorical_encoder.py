@@ -19,16 +19,14 @@ from keras.models import Model
 
 
 class Categorical_encoder():
-
     """
     Encodes categorical features. Several strategies are possible (supervised or not). Works for both classification and regression tasks.
-
+    
     Parameters
     ----------
     strategy : string, defaut = "label_encoding"
         The strategy to encode categorical features.
-        Available strategies = "label_encoding", "dummification", "random_projection", entity_embedding"
-
+        Available strategies = "label_encoding", "dummification", "random_projection", "entity_embedding"
     verbose : boolean, defaut = False
         Verbose mode. Useful for entity embedding strategy.
     """
@@ -64,24 +62,19 @@ class Categorical_encoder():
 
 
     def fit(self, df_train, y_train):
-
         '''
-
         Fits Categorical Encoder.
 
         Parameters
         ----------
         df_train : pandas dataframe of shape = (n_train, n_features)
             The train dataset with numerical and categorical features. NA values are allowed.
-
         y_train : pandas series of shape = (n_train, ).
             The target for classification or regression tasks.
-
 
         Returns
         -------
         None
-
         '''
 
         self.__Lcat = df_train.dtypes[df_train.dtypes == 'object'].index
@@ -288,25 +281,20 @@ class Categorical_encoder():
 
 
     def fit_transform(self, df_train, y_train):
-
         '''
-
         Fits Categorical Encoder and transforms the dataset
 
         Parameters
         ----------
         df_train : pandas dataframe of shape = (n_train, n_features)
             The train dataset with numerical and categorical features. NA values are allowed.
-
         y_train : pandas series of shape = (n_train, ).
             The target for classification or regression tasks.
-
 
         Returns
         -------
         df_train : pandas dataframe of shape = (n_train, n_features)
             The train dataset with numerical and encoded categorical features.
-
         '''
 
         self.fit(df_train, y_train)
