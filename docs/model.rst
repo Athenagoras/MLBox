@@ -4,8 +4,10 @@ Classification
 Feature selection 
 -----------------
 
-.. autoclass:: mlbox.model.supervised.Clf_feature_selector
-   :members:
+.. automodule:: mlbox.model.supervised.feature_selector
+    :members:
+    :undoc-members:
+    :show-inheritance:
 
 Classification 
 --------------
