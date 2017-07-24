@@ -1,11 +1,15 @@
 Missing values
 --------------
 
-.. autoclass:: mlbox.encoding.NA_encoder
-   :members:
+.. automodule:: mlbox.encoding.NA_encoder
+    :members:
+    :undoc-members:
+    :show-inheritance:
 
 Categorical features
 --------------------
 
-.. autoclass:: mlbox.encoding.Categorical_encoder
-   :members:
+.. automodule:: mlbox.encoding.Categorical_encoder
+    :members:
+    :undoc-members:
+    :show-inheritance:
