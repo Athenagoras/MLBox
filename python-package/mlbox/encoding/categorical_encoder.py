@@ -23,17 +23,14 @@ class Categorical_encoder():
     """
     Encodes categorical features. Several strategies are possible (supervised or not). Works for both classification and regression tasks.
 
-
     Parameters
     ----------
-
     strategy : string, defaut = "label_encoding"
         The strategy to encode categorical features.
         Available strategies = "label_encoding", "dummification", "random_projection", entity_embedding"
 
     verbose : boolean, defaut = False
         Verbose mode. Useful for entity embedding strategy.
-
     """
 
     def __init__(self, strategy = 'label_encoding', verbose = False):
@@ -74,12 +71,11 @@ class Categorical_encoder():
 
         Parameters
         ----------
-
         df_train : pandas dataframe of shape = (n_train, n_features)
-        The train dataset with numerical and categorical features. NA values are allowed.
+            The train dataset with numerical and categorical features. NA values are allowed.
 
         y_train : pandas series of shape = (n_train, ).
-        The target for classification or regression tasks.
+            The target for classification or regression tasks.
 
 
         Returns
@@ -299,19 +295,17 @@ class Categorical_encoder():
 
         Parameters
         ----------
-
         df_train : pandas dataframe of shape = (n_train, n_features)
-        The train dataset with numerical and categorical features. NA values are allowed.
+            The train dataset with numerical and categorical features. NA values are allowed.
 
         y_train : pandas series of shape = (n_train, ).
-        The target for classification or regression tasks.
+            The target for classification or regression tasks.
 
 
         Returns
         -------
-
         df_train : pandas dataframe of shape = (n_train, n_features)
-        The train dataset with numerical and encoded categorical features.
+            The train dataset with numerical and encoded categorical features.
 
         '''
 
@@ -329,16 +323,14 @@ class Categorical_encoder():
 
         Parameters
         ----------
-
         df : pandas dataframe of shape = (n, n_features)
-        The dataset with numerical and categorical features. NA values are allowed.
+            The dataset with numerical and categorical features. NA values are allowed.
 
 
         Returns
         -------
-
         df : pandas dataframe of shape = (n, n_features)
-        The dataset with numerical and encoded categorical features.
+            The dataset with numerical and encoded categorical features.
 
         '''
 
