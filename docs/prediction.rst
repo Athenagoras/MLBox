@@ -1,5 +1,7 @@
 Prediction
 ----------
 
-.. autoclass:: mlbox.prediction.Predictor
-   :members:
+.. automodule:: mlbox.prediction.Predictor
+    :members:
+    :undoc-members:
+    :show-inheritance:
