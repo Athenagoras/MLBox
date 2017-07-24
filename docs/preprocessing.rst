@@ -1,9 +1,13 @@
 Reading
 -------
 
-.. autoclass:: mlbox.preprocessing.Reader
-   :members:
-
+.. automodule:: mlbox.preprocessing.Reader
+    :members:
+    :undoc-members:
+    :show-inheritance:
+    
+    
+    
 Drift thresholding
 ------------------
 
