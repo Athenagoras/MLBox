@@ -22,13 +22,8 @@ class Categorical_encoder():
     """
     Encodes categorical features. Several strategies are possible (supervised or not). Works for both classification and regression tasks.
     
-    Parameters
-    ----------
-    strategy : string, defaut = "label_encoding"
-        The strategy to encode categorical features.
-        Available strategies = "label_encoding", "dummification", "random_projection", "entity_embedding"
-    verbose : boolean, defaut = False
-        Verbose mode. Useful for entity embedding strategy.
+    Parameters: * strategy : string, defaut = "label_encoding". The strategy to encode categorical features. Available strategies = "label_encoding", "dummification", "random_projection", "entity_embedding"
+                * verbose : boolean, defaut = False. Verbose mode. Useful for entity embedding strategy.
     """
 
     def __init__(self, strategy = 'label_encoding', verbose = False):
@@ -65,16 +60,10 @@ class Categorical_encoder():
         '''
         Fits Categorical Encoder.
 
-        Parameters
-        ----------
-        df_train : pandas dataframe of shape = (n_train, n_features)
-            The train dataset with numerical and categorical features. NA values are allowed.
-        y_train : pandas series of shape = (n_train, ).
-            The target for classification or regression tasks.
+        Parameters : * df_train : pandas dataframe of shape = (n_train, n_features). The train dataset with numerical and categorical features. NA values are allowed.
+                     * y_train : pandas series of shape = (n_train, ). The target for classification or regression tasks.
 
-        Returns
-        -------
-        None
+        Returns : None
         '''
 
         self.__Lcat = df_train.dtypes[df_train.dtypes == 'object'].index
