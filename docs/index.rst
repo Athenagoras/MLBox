@@ -34,33 +34,9 @@ Home
 
 .. toctree::
    :maxdepth: 3
-   :caption: Preprocessing
+   :caption: Features
    
-   preprocessing
-   
-.. toctree::
-   :maxdepth: 3
-   :caption: Encoding
-   
-   encoding
-   
-.. toctree::
-   :maxdepth: 3
-   :caption: Model
-   
-   model
-   
-.. toctree::
-   :maxdepth: 2
-   :caption: Optimisation   
-   
-   optimisation
-   
-.. toctree::
-   :maxdepth: 3
-   :caption: Prediction
-   
-   prediction
+   features
    
 .. toctree::
    :maxdepth: 1
